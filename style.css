@@ -4,16 +4,31 @@ body {
 }
 
 .title {
-    
+
     color: green;
     text-align: center;
 }
 
 .parent {
     display: flex;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.details-btn {
+    padding: 15px 40px;
+    border: none;
+    background-image: linear-gradient(150deg, #006A4E, #F42A41, #006A4E);
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.details-btn:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .photo img {
