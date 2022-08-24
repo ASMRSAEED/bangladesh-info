@@ -18,6 +18,8 @@ body {
 }
 
 .details-btn {
+    text-decoration: none;
+    color: black;
     padding: 15px 40px;
     border: none;
     background-image: linear-gradient(150deg, #006A4E, #F42A41, #006A4E);
@@ -33,4 +35,46 @@ body {
 
 .photo img {
     width: 500px;
+}
+
+.second-section {
+    text-align: center;
+
+}
+
+.all-division {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.division-name {
+    width: 350px;
+    border: 2px solid green;
+    margin: 2% 5%;
+    box-shadow: 4px 4px 15px red;
+    border-radius: 10px;
+}
+
+.image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.division-details {
+    padding: 0px 10px 20px 10px;
+}
+
+.card-btn {
+    text-decoration: none;
+    color: black;
+    padding: 8px 20px;
+    border: none;
+    background-image: linear-gradient(150deg, #006A4E, #F42A41, #006A4E);
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.card-btn:hover {
+    color: white;
+    cursor: pointer;
 }
